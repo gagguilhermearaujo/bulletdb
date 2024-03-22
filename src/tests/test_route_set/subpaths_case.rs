@@ -22,7 +22,7 @@ async fn test_route_set_with_subpaths() {
         }
     }});
 
-    let response_json = crate::tests::route_set::do_set_request(body).await;
+    let response_json = crate::tests::test_route_set::do_set_request(body).await;
 
     assert_eq!(response_json, expected_body);
 }

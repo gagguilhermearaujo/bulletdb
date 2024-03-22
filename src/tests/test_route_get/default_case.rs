@@ -1,6 +1,6 @@
 #[tokio::test]
 async fn test_route_get() {
-    crate::tests::route_set::do_set_request(serde_json::json!({
+    crate::tests::test_route_set::do_set_request(serde_json::json!({
         "documents": {
             "test_get_1": {
                 "firstName": "Guili",

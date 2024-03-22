@@ -1,2 +1,2 @@
-pub mod route_get;
-pub mod route_set;
+pub mod test_route_get;
+pub mod test_route_set;
